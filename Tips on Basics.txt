@@ -1,0 +1,32 @@
+-----Some important things to learn-----
+
+Methods are functions that are attached to object.
+
+e.g
+
+function name(){
+"the code that need execution when the function is called"
+}
+
+ojectName = {
+ key: value
+}
+
+now a method will be; objectName.name()
+
+
+
+//Returning random items from an arry using Math.random()
+
+let hands = ["rock", "paper", "scissor"]
+
+function randomItem(){
+
+    let randomIndex =Math.floor( Math.random() * hands.length)
+    return hands[randomIndex]
+
+    // hands.lengthx
+}
+
+
+console.log(randomItem())
